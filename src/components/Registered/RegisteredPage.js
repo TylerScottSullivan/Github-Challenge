@@ -71,7 +71,6 @@ class RegisteredPage extends Component {
 
   onReorderList(e) {
   	e.preventDefault();
-  	console.log('clicking')
   	let state = {...this.state}
   	let issues = state.selectedIssues;
   	let length = issues.length;
