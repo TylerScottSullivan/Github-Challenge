@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  margin: 2em 10%;
+}
+
+.list-container {
+  border: 2px solid black;
+}
+
+.list-item {
+  padding-left: 2em;
+  padding-bottom: .5em;
+  text-align: left;
+  border-top: 1px solid black;
+}
+
+.repo-item {
+  cursor: pointer;
+}
+
+.repo-item:hover {
+  background-color: black;
+  color: white;
+}
+
+.selected {
+  background-color: grey;
+  color: white;
+}
+
+.issues-header {
+  display: inline-block
+}
+
+.issue-title {
+  display: inline-block;
+}
+
+.reorder-btn {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.reorder-input {
+  width: 30px;
+  margin-right: 10px;
+}
